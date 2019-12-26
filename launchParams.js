@@ -1,7 +1,7 @@
 var params = [
     {
         "key": "iss",
-        "value":"http://localhost:3000"
+        "value":"https://lti13-platform.herokuapp.com"
     },
     {
         "key": "login_hint",

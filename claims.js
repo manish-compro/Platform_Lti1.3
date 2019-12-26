@@ -19,7 +19,7 @@ var claims = {
     "version": "1.0",
     "guid": 663
   },
-  "iss": "http://localhost:3000",
+  "iss": "https://lti13-platform.herokuapp.com",
   "aud": "1234",
   "sub": "15d0085a5ac8c12c7c43",
   "nonce": "",
