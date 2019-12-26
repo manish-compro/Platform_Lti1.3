@@ -1,10 +1,9 @@
 var express = require('express');
 var router = express.Router();
 var launchParams = require('../launchParams')
-
 var claims = require('../claims');
 const jwt = require('jsonwebtoken');
-var request = require('request');
+
 const fs = require('fs');
 
 
