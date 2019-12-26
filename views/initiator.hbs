@@ -1,0 +1,13 @@
+<form id="form" action="https://lti-ri.imsglobal.org/lti/tools/669/login_initiations" method="POST">
+ <input type="hidden" name="iss" value={{Params.iss}}>
+    <input type="hidden" name="login_hint" value={{Params.login_hint}}>
+    <input type="hidden" name="target_link_uri" value={{Params.target_link_uri}}>
+    <input type="hidden" name="lti_message_hint" value={{Params.lti_message_hint}}>
+    <input type="hidden" name="lti_deployment_id" value={{Params.lti_deployment_id}}>
+    <input type="hidden" name="client_id" value={{Params.client_id}}>
+</form>
+
+
+<script >
+     document.getElementById("form").submit();
+</script>

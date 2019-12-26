@@ -1,0 +1,12 @@
+<h1>{{title}}</h1>
+<p>Welcome to {{title}}</p>
+
+<form id="form" class="" action="/login_initiations" method="POST" target="_blank">
+  <div class="form-group">
+      {{#launchParams}}
+    <label>{{key}}</label>
+    <input class="form-control form-control-sm" type="text" name={{key}} value={{value}}>
+     {{/launchParams}}
+  </div>
+<button type="submit" class="btn btn-primary">Submit</button>
+</form>
